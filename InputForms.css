@@ -35,6 +35,7 @@ label {
     width: 40%;
 }
 
-.error {
+.error,
+.email-error {
     color: red;
 }

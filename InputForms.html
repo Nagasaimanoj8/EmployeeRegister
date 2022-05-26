@@ -20,14 +20,17 @@
         <div>
             <label for="email">email input type</label>
             <input type="email" id="email" name="email" required>
-            <error-output class="email-error" for="email"></error-output>
+            <text-error class="email-error"></text-error>
         </div>
         <div>
             <label for="tel"> text input box for mobilenumber</label>
             <input type="tel" id="number" placeholder="Enter a mobilenumber">
-            <text-error class="errorr"></text-error>
+            <text-error class="mobile-error"></text-error>
         </div>
-        <div></div>
+        <div>
+            <label for="number">number input type</label>
+            <input type="number" id="number" name="number" required>
+        </div>
     </form>
     <script>
         var text = document.querySelector("#Name");
